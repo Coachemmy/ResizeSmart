@@ -1,5 +1,7 @@
 SEAM CARVING IMAGE RESIZING
 
+
+
 This repository implements a Seam Carving algorithm for content-aware image resizing. The goal of this algorithm is to reduce while preserving important content (such as objects and structures) by removing less important regions based on energy values. 
 
 The process involves removing vertical or horizontal seams (paths of minimal energy) iteratively until the target size is reached (i.e It takes an image, target width, and target height as inputs and generates a resized image with the same content but reduced size.)
